@@ -1,0 +1,154 @@
+/*
+
+    Copyright (c) Nebula: All rights reserved
+
+    Get your site today: https://nebu.me
+*/
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, 0);
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 132, 255);
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+    overflow-y: none;
+}
+
+.content {
+    height: 87.5dvh;
+    width: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    height: 12.5dvh;
+}
+
+.nav-button {
+    height: 70%;
+    width: 95px;
+    margin: 15px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.bg-green {
+    background: linear-gradient(to bottom, rgb(0, 152, 222), rgb(0, 109, 160));
+}
+
+.text {
+    font-family: 'Inter', sans-serif;
+}
+
+.large {
+    font-size: 48pt;
+}
+
+.small {
+    font-size: 20pt;
+}
+
+.title {
+    font-size: 38pt;
+}
+
+.subtitle {
+    font-size: 16pt;
+}
+
+.txt-limited {
+    max-width: 80%;
+    margin: auto;
+}
+
+.url {
+    text-decoration: none;
+}
+
+.mh {
+    color: rgb(0, 0, 0);
+}
+
+.space-around {
+    padding: 25px;
+}
+
+.url:hover {
+    text-decoration: underline;
+}
+
+.keyword {
+    background: linear-gradient(to bottom, rgb(0, 152, 222), rgb(0, 109, 160));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.content-container {
+    height: 70dvh;
+}
+
+.s-content-container {
+    height: 35dvh;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.cards {
+    height: 30dvh;
+}
+
+.card {
+    width: 35%;
+    min-width: 375px;
+    margin: 15px auto;
+    height: 20dvh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12pt;
+    box-shadow: 0px 0px 25px 5px rgb(0, 0, 0);
+
+    transition: ease-in-out 150ms;
+}
+
+.card:hover {
+    transform: translateY(-5%);
+}
+
+
+.credits {
+    height: 25dvh;
+    color: rgb(255, 255, 255);
+}
+
+.site {
+    color: rgb(255, 255, 255);
+}
